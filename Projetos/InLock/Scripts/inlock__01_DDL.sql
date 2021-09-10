@@ -12,11 +12,11 @@ GO
 
 CREATE TABLE Jogos(
 idJogo tinyint PRIMARY KEY IDENTITY(1,1),
+idEstudio tinyint FOREIGN KEY REFERENCES Estudios(idEstudio)
 nomeJogos VARCHAR(100)NOT NULL ,
 descricaoJogo VARCHAR(1000),
 dataLancamento DATE NOT NULL,
 valor MONEY NOT NULL,
-idEstudio tinyint FOREIGN KEY REFERENCES Estudios(idEstudio)
 );
 GO
 
@@ -33,3 +33,4 @@ emailUsuario VARCHAR(100),
 senhaUsuario VARCHAR(30),
 idTipoUsuario tinyint FOREIGN KEY REFERENCES TipoUsuario(idTipoUsuario)
 );
+GO
