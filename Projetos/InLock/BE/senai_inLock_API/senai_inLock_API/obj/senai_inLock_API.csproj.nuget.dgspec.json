@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fic\\Desktop\\Matheus Araujo\\Projetos\\InLock\\Nova pasta\\senai_inLock_API\\senai_inLock_API\\senai_inLock_API.csproj": {}
+    "C:\\Users\\fic\\Desktop\\Matheus Araujo\\Projetos\\InLock\\BE\\senai_inLock_API\\senai_inLock_API\\senai_inLock_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fic\\Desktop\\Matheus Araujo\\Projetos\\InLock\\Nova pasta\\senai_inLock_API\\senai_inLock_API\\senai_inLock_API.csproj": {
+    "C:\\Users\\fic\\Desktop\\Matheus Araujo\\Projetos\\InLock\\BE\\senai_inLock_API\\senai_inLock_API\\senai_inLock_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fic\\Desktop\\Matheus Araujo\\Projetos\\InLock\\Nova pasta\\senai_inLock_API\\senai_inLock_API\\senai_inLock_API.csproj",
+        "projectUniqueName": "C:\\Users\\fic\\Desktop\\Matheus Araujo\\Projetos\\InLock\\BE\\senai_inLock_API\\senai_inLock_API\\senai_inLock_API.csproj",
         "projectName": "senai_inLock_API",
-        "projectPath": "C:\\Users\\fic\\Desktop\\Matheus Araujo\\Projetos\\InLock\\Nova pasta\\senai_inLock_API\\senai_inLock_API\\senai_inLock_API.csproj",
+        "projectPath": "C:\\Users\\fic\\Desktop\\Matheus Araujo\\Projetos\\InLock\\BE\\senai_inLock_API\\senai_inLock_API\\senai_inLock_API.csproj",
         "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fic\\Desktop\\Matheus Araujo\\Projetos\\InLock\\Nova pasta\\senai_inLock_API\\senai_inLock_API\\obj\\",
+        "outputPath": "C:\\Users\\fic\\Desktop\\Matheus Araujo\\Projetos\\InLock\\BE\\senai_inLock_API\\senai_inLock_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
