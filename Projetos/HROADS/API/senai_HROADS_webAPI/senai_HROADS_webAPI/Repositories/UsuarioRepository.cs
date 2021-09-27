@@ -1,4 +1,5 @@
-﻿using senai_HROADS_webAPI.Domains;
+﻿using senai_HROADS_webAPI.Contexts;
+using senai_HROADS_webAPI.Domains;
 using senai_HROADS_webAPI.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -34,9 +35,10 @@ namespace senai_HROADS_webAPI.Repositories
             throw new NotImplementedException();
         }
 
+        HROADSContext ctx = new HROADSContext();
         public Usuario Login(string email, string senha)
         {
-            throw new NotImplementedException();
+            return ctx.Usuarios.FirstOrDefault(u => u.Email == email && u.Senha = senha);
         }
     }
 }
