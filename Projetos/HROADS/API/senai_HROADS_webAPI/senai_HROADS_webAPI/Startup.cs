@@ -51,7 +51,7 @@ namespace senai_HROADS_webAPI
             app.UseSwagger();
 
             app.UseSwaggerUI(c => {
-                c.SwaggerEndpoint("/swwager/v1/swwager.json", "HROADS.webAPI");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "HROADS.webAPI");
                 c.RoutePrefix = string.Empty;
             });
 
