@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = senai_HROADS_webAPI
+build_property.ProjectDir = C:\Users\fic\Desktop\senai_sprint2_backend\Projetos\HROADS\API\senai_HROADS_webAPI\senai_HROADS_webAPI\
