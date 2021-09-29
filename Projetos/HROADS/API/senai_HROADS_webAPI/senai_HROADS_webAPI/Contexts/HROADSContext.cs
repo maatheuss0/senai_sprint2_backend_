@@ -18,7 +18,7 @@ namespace senai_HROADS_webAPI.Contexts
         {
         }
 
-        public virtual DbSet<Classe> Usuarios { get; set; }
+        public virtual DbSet<Usuario> Usuarios { get; set; }
         public virtual DbSet<Classe> Classes { get; set; }
         public virtual DbSet<Classehabilidade> Classehabilidades { get; set; }
         public virtual DbSet<Habilidade> Habilidades { get; set; }

@@ -36,9 +36,9 @@ namespace senai_HROADS_webAPI.Repositories
         }
 
         HROADSContext ctx = new HROADSContext();
-        public Usuario Login(string email, string senha)
+        public Usuario Login(string email, string senha)    
         {
-            return ctx.Usuarios.FirstOrDefault(u => u.Email == email && u.Senha = senha);
+            return ctx.Usuarios.FirstOrDefault(u => u.Email == email && u.Senha == senha);
         }
     }
 }
